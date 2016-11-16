@@ -45,7 +45,7 @@ Supports DELETE which deletes just the word supplied in the url.
 Supports GET as a maintenance verification utility which returns either True or False regarding word's existence in the dictionary/ corpus.
 
 ## technical stuff about the backend
-There are some assumptions that are made regarding the dictionary.  For instance, I assume that having an empty character in the dictionary is superluous, so I remove it at runtime.  All calculations like word count, median, average and especially the minimum reflect this.
+There are some assumptions that are made regarding the dictionary.  For instance, I assume that having an empty character in the dictionary is superfluous, so I remove it at runtime.  All calculations like word count, median, average and especially the minimum reflect this.
 
 A set is used for the dictionary, so adding a word that already exists in the dictionary/corpus will not add additional content.
 
