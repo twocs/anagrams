@@ -8,7 +8,7 @@ from numpy import median
     Date: 11-14-2016
 
     There are several endpoints in this api:
-        -/word.json
+        -/word.json (not currently implemented)
             supports POST which takes a json array named 'words' and adds them
             to the dictionary/corpus
 
