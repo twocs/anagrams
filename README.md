@@ -34,12 +34,12 @@ Supports DELETE which completely dumps the dictionary/corpus.
 
 Supports GET which returns a json dictionary of statistics for the dictionary/corpus including size/min/max/median/average.
 
-#### /anagrams/<word>.json
+#### /anagrams/\<word>.json
 Supports DELETE which deletes all anagrams of the supplied word in the url.  Optional query param ignorecase=yes deletes proper nouns.
 
 Supports GET which returns json array of all anagrams for the supplied word in the url.  Optional query param ignorecase=yes will return proper nouns as well.  Optional query param limit=x where x is an integer will limit the results to the number specified.
 
-#### /words/<word>.json
+#### /words/\<word>.json
 Supports DELETE which deletes just the word supplied in the url.
 
 Supports GET as a maintenance verification utility which returns either True or False regarding word's existence in the dictionary/ corpus.
