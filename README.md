@@ -44,8 +44,8 @@ Supports DELETE which deletes just the word supplied in the url.
 
 Supports GET as a maintenance verification utility which returns either True or False regarding word's existence in the dictionary/ corpus.
 
-Example: curl http://\<DockerIPAddress>:3000/words/post.json
-Result: "True"
+##### Example: curl http://\<DockerIPAddress>:3000/words/post.json
+###### Result: "True"
 
 ## technical stuff about the backend
 There are some assumptions that are made regarding the dictionary.  For instance, I assume that having an empty character in the dictionary is superfluous, so I remove it at runtime.  All calculations like word count, median, average and especially the minimum reflect this.
