@@ -44,7 +44,7 @@ Supports DELETE which deletes just the word supplied in the url.
 
 Supports GET as a maintenance verification utility which returns either True or False regarding word's existence in the dictionary/ corpus.
 
-Example: curl -v -H "Accept:application/json" http://DockerIPAddress:3000/words/post.json
+Example: curl http://\<DockerIPAddress>:3000/words/post.json
 Result: "True"
 
 ## technical stuff about the backend
